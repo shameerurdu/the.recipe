@@ -1,0 +1,86 @@
+body{
+	color: #000;
+}
+.sidebar{
+	background-color:#000;
+	color: #fff;
+	height:100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+
+
+}
+.blog-details{
+    padding: 80px 0 0 60px;
+}
+.blog-details ul{
+	list-style: none;
+    padding-inline-start: 5px;
+
+}
+.blog-details ul li a{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 900;
+	line-height: 15px;
+
+}
+.page-content{
+	background: #fff;
+}
+.title{
+	font-weight: 900;
+	font-size: 32px;
+	margin-bottom: 120px;
+}
+.recipe-list{
+	padding-left: 30px;
+}
+.recipe-info, .recipe-title h1{
+	display: inline!important;
+}
+.recipe-title h1{
+	font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.recipe-info{
+	display:flex!important;
+    align-items:center;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    font-size: 1vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+.sidebar{
+	display: none;
+}
+.invisible{
+	display: none;
+}
+.recipe-title h1{
+	font-size:32px;
+	line-height: 30px;
+
+}
+.recipe-list{
+	padding-left: 0px;
+}
+.offset-2{
+	margin-left: 0px;
+}
+.offset-3 {
+    margin-left: 0px;
+}
+
+.recipe-info{
+	display: none!important;
+}
+}
